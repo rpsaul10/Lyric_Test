@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Song</title>
+</head>
+<body>
+
+<form method="post">
+    <div>
+        <label>Song Name</label>
+        <label>
+            <input type="text" name="song_name" value={{ label_song }}>
+        </label>
+    </div> <br>
+    <div>
+        <label>Artist Name</label>
+        <label>
+            <input type="text" name="artist_name" value={{ label_artist }}>
+        </label>
+    </div>
+    <div> <br>
+        <input type="submit" value="Search Song">
+    </div>
+</form> <br>
+<div style="width: 500px">
+    <h2>{{ song }}</h2>
+</div>
+</body>
+</html>
